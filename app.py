@@ -54,3 +54,4 @@ if submit:
     st.subheader(f'Predicted Species is : {pred[0]}')
     st.subheader(f'Probability of Prediction : {max_prob:.4f}')
     st.progress(max_prob)
+    
